@@ -1,6 +1,7 @@
-### Usage: 
+### Usage:
+
 ```bash
-    $: git_log.sh -l 5 -s 10
+    $: ./better_git_log.sh -l 5 -s 10
 ```
 
 #### 
