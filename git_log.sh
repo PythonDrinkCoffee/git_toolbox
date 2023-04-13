@@ -32,9 +32,13 @@ for (( ; ;))
 do
 	clear
 	echo -e "\n============= CURRENT HEAD ======================"
-	git log --oneline -n 1
+
+        git log --oneline --graph --pretty=format:'%Cred%h%Creset %ad | -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -n 1 --date=short
+
 	echo -e "===================================================\n"
-	git log --oneline @^ -n "$lineamount"
+
+	git log --oneline @^ --graph --pretty=format:'%Cred%h%Creset %ad | -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit -n "$lineamount" --date=short
+
 	sleep "$seconds"
 done
 
