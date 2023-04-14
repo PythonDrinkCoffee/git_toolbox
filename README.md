@@ -1,8 +1,7 @@
 ### Usage:
 
 ```bash
-    
-    path/usr/$: ./better_git_log.sh -l 5 -s 10
+   path/usr/$: ./better_git_log.sh -l 5 -s 10
 ```
 
 #### 
