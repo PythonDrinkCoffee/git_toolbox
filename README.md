@@ -1,12 +1,14 @@
 ### Usage:
 
 ```bash
-    $: ./better_git_log.sh -l 5 -s 10
+
+         $: ./better_git_log.sh -l 5 -s 10
+
 ```
 
 #### 
 ```bash
-    OPTIONS:
+   OPTIONS:
          line amount  -l N      [ N must be greater than 4 lines]
          seconds amount  -s N   [ N must be greater than 4 seconds ]
 ```
