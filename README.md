@@ -1,7 +1,10 @@
 ### Usage:
 
 ```bash
+    $:
     $: ./better_git_log.sh -l 5 -s 10
+    $:
+
 ```
 
 #### 
